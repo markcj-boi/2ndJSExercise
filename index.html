@@ -37,18 +37,14 @@
         </table>
     </fieldset>
 
-    <button id="btn3" style="margin-top: 10px;">Clear Items</button>
+    <button id="btn3"style="margin-top: 10px; display: none;">Clear Items</button>
     <button id="btn4" style="margin-top: 10px; display: none;">Get Total</button>
-    <button id="btnHighLow" style="margin-top: 10px;">Get Highest and Lowest</button>
-    
-    <label>Sort by:
-        <select id="sortOption" onchange="sortNumbers"()>
-            <option value="">Please Select</option>
-            <option value="asc">Ascending</option>
-            <option value="desc">Descending</option>
-         </select>
-        </label>
-
+    <button id="btn5" style="margin-top: 10px; display: none;">Identify Highest and Lowest Number</button>
+    <select name="" id="choices"  style="margin-top: 10px; display: none;">
+        <option >--Please Select--</option>
+        <option value="ascending"> Ascending</option>
+        <option value="descending"> Descending</option>
+    </select>
     <script src="main.js"></script>
 </body>
 </html>
